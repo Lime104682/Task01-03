@@ -18,7 +18,7 @@
     <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Vector.cpp">
+    <ClCompile Include="Vector.hpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
   </ItemGroup>
