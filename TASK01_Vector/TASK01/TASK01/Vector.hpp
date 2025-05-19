@@ -235,16 +235,10 @@ struct Vector3 //Vector3의 구조체
 	}
 };
 
+/*
+* 
+*/
 inline Vector3 operator*(float scalar, const Vector3& vec)
 {
 	return vec * scalar;
 }
-
-/*
-* 검색어
-* c++ 벡터 Dot, Cross, 3차원 벡터 외적 공식
-* https://rhksgml78.tistory.com/124
-* 
-* inline 함수
-* 
-*/

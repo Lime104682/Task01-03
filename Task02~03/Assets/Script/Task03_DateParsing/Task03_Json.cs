@@ -34,6 +34,7 @@ public class Task03_Json : MonoBehaviour
         string[] lines = File.ReadAllLines(path);
 
         List<Monster> monsters = new List<Monster>();
+
         for (int i = 1; i < lines.Length; i++)
         {
             string[] parts = lines[i].Split(',');
@@ -54,6 +55,8 @@ public class Task03_Json : MonoBehaviour
 
         string json = JsonUtility.ToJson(new Wrapper<Monster> { items = monsters.ToArray() }, true);
         Debug.Log(json);
+
+        File.WriteAllText(path, json);
     }
 
     [System.Serializable]
