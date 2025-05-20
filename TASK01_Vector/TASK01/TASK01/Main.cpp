@@ -90,9 +90,9 @@ public:
 		// 여기에 코드를 작성하세요
 		// 힌트: 두 점 사이의 거리 공식을 사용
 		float val_task02 = sqrt(
-			pow(targetPosition.x - position.x, 2) +
-			pow(targetPosition.y - position.y, 2) +
-			pow(targetPosition.z - position.z, 2)
+			pow(position.x - targetPosition.x, 2) +
+			pow(position.y - targetPosition.y, 2) +
+			pow(position.z - targetPosition.z, 2)
 		);
 		return val_task02;
 	}
