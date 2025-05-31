@@ -141,7 +141,9 @@ TASK 2
  * ObjectPool<EnemyPool>()
  * 유니티 공식 오브젝트풀링
 
-# TASK03_Parsing - 검색어   
+# TASK03_Parsing - 설명 및 검색어
+## 설명
+ * Assets의 Scenes의 Task03_Parsing 씬 선택하시면 됩니다.
 ## 검색어
  * json 유니티
  * https://www.youtube.com/watch?v=fHXN1DJKDk0&t=934s
